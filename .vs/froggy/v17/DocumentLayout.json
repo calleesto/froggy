@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E503E5B-4994-4500-A5E2-5972599FCE25}|froggy\\froggy.vcxproj|C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E503E5B-4994-4500-A5E2-5972599FCE25}|froggy\\froggy.vcxproj|solutionrelative:froggy\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E503E5B-4994-4500-A5E2-5972599FCE25}|froggy\\froggy.vcxproj|C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E503E5B-4994-4500-A5E2-5972599FCE25}|froggy\\froggy.vcxproj|solutionrelative:froggy\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\config.json",
+              "RelativeDocumentMoniker": "froggy\\config.json",
+              "ToolTip": "C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\config.json",
+              "RelativeToolTip": "froggy\\config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T23:21:53.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\Source.cpp",
+              "RelativeDocumentMoniker": "froggy\\Source.cpp",
+              "ToolTip": "C:\\Users\\Stan Swirydczuk\\Desktop\\projects 24-25 pp\\froggy\\froggy\\froggy\\Source.cpp",
+              "RelativeToolTip": "froggy\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-05T22:49:43.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

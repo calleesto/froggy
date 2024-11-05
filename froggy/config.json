@@ -1,0 +1,68 @@
+{
+  "player": {
+    "size": 1.0,
+    "shape": "circle",
+    "color": "blue"
+  },
+  "enemies": {
+    "count": 5,
+    "types": [ "goblin", "orc" ],
+    "speed": 1.2
+  },
+  "playing_area": {
+    "width": 800,
+    "height": 600
+  },
+  "random_seed": 42
+}
+
+
+/*
+  THIS IS WHAT USING THIS JSON FILE LOOKS LIKE IN THE CPP FILE 
+  I HAVE IT HERE TO HELP WHEN NEEDED IN THE FUTURE
+  
+  #include <iostream>
+#include <fstream>
+#include <nlohmann/json.hpp>
+
+using namespace std; // Use the standard namespace
+
+#define SCREEN_HEIGHT	10
+#define SCREEN_WIDTH	10
+
+struct GameState {
+    char screen[][];
+};
+
+int main() {
+    // Load the JSON configuration file
+    ifstream configFile("config.json");
+    if (!configFile.is_open()) {
+        cerr << "Could not open the config file!" << endl;
+        return 1;
+    }
+
+    nlohmann::json config;  
+    configFile >> config;
+
+    // Accessing the parameters
+    float playerSize = config["player"]["size"];
+    string playerShape = config["player"]["shape"];
+    string playerColor = config["player"]["color"];
+    int enemyCount = config["enemies"]["count"];
+    float enemySpeed = config["enemies"]["speed"];
+    int playingAreaWidth = config["playing_area"]["width"];
+    int playingAreaHeight = config["playing_area"]["height"];
+    int randomSeed = config["random_seed"];
+
+    // Example output
+    cout << "Player Size: " << playerSize << "\n";
+    cout << "Player Shape: " << playerShape << "\n";
+    cout << "Player Color: " << playerColor << "\n";
+    cout << "Enemy Count: " << enemyCount << "\n";
+    cout << "Enemy Speed: " << enemySpeed << "\n";
+    cout << "Playing Area: " << playingAreaWidth << "x" << playingAreaHeight << "\n";
+    cout << "Random Seed: " << randomSeed << "\n";
+
+    return 0;
+}*/
